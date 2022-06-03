@@ -1,0 +1,245 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+a{
+    color: #000;
+}
+a:hover{
+
+    color: blue;
+}
+@font-face{
+    font-family: Bold;
+    src: url("../fonts/KumbhSans-Bold.ttf");
+}
+@font-face{
+    font-family:Regular;
+    src: url("../fonts/KumbhSans-Regular.ttf");
+}
+.containar{
+  padding: 40px 10% 0px 10%;
+  width: 100%;
+  background-color: #f6f1f1;
+}
+.top-header{
+display: flex;
+justify-content: space-between;
+padding-bottom: 100px;
+}
+.main-nav{
+    color: #fff;
+  padding: 20px 30px;
+}
+.main-nav .nave-item{
+    color: #333950;
+    margin-left: 15px;
+    font-family: Bold;
+    font-size: 20px;
+}
+.main-nav .nave-item:hover {
+    color: #5175ff;
+}
+.main-buttun{
+    background-color: #5175ff;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 20px 40px;
+    font-size: 20px;
+    text-transform: capitalize;
+    width: 220px;
+}
+.main-buttun:hover{
+    background-color: #101329;
+    color: #fff;
+}
+.header{
+    display: flex;
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 30px;
+}
+.main-heading{
+    font-family: Bold;
+    font-size: 50px ;
+    color: #333950;
+    padding-bottom: 15px;
+}
+.main-txt{
+    font-family: Regular;
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #747B95;
+    line-height: 2;
+}
+.plans{
+    display: flex;
+    justify-content: space-between; 
+    text-align:center;
+    margin-bottom: 20px;
+}
+.plan1{
+    padding: 60px;
+    background-color: #FFFFFF;
+    border-radius: 4%;
+}
+.plan1:hover{
+   background-color: #5175FF;
+   color: #FFFFFF;
+}
+.type{
+    font-family: Bold;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.price{
+    font-family:Bold;
+    font-size: 56px;
+}
+.user{
+    font-family: Regular;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.content{
+    font-family:Regular;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.storge{
+    font-family:Regular;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.adv{
+    font-family: Regular;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.buttun1{
+    padding: 20px 60px;
+    border-radius: 28px;
+    border: none;
+    color: #5175FF;
+}
+.plan1:hover .buttun1{
+    background-color: white;
+}
+.time{
+    font-family: Regular;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    letter-spacing: 5px;
+}
+.time .num{
+    color: #5175FF;
+    font-size: 25px;
+}
+.small-boxes{
+    display: flex;
+    flex-direction: row;
+}
+.small-boxes .day{
+    background-color: #333950;
+    border-radius: 10%;
+    padding: 30px 30px;
+}
+.day .p1{
+    font-family: Regular;
+    font-size: 100px;
+    color: white;
+}
+.day  .p2{
+    font-size: 30px;
+    color: white;
+    font-family: Regular;
+}
+.plans .small-boxes{
+    display: flex;
+    justify-content: flex-start;
+}
+.small-boxes .hours{
+    background-color: #333950;
+    padding: 30px 30px;
+    border-radius: 10%;
+    margin-left: 40px;
+}
+.hours .p11{
+    font-family: Regular;
+    font-size: 100px;
+    color: white;
+}
+.hours  .p22{
+    font-size: 30px;
+    color: white;
+    font-family: Regular;
+    margin-left: 20px;
+}
+.small-boxes .min{
+    background-color: #333950;
+    padding: 30px 30px ;
+   border-radius: 10%;
+   margin-left: 40px;
+}
+.min .p13{
+    font-family: Regular;
+    font-size: 100px;
+    color: white;
+}
+.min  .p23{
+    font-size: 30px;
+    color: white;
+    font-family: Regular;
+    margin-left: 22px;
+}
+.small-boxes .sec{
+    background-color: #333950;
+    border-radius: 10%;
+    padding: 30px 30px;
+    margin-left: 40px;
+}
+.sec .p14{
+    font-family: Regular;
+    font-size: 100px;
+    color: white;
+}
+.sec  .p24{
+    font-size: 30px;
+    color: white;
+    font-family: Regular;
+    margin-left: 20px;
+}
+ .buttun5{
+    background-color: #5175FF;
+    font-family: Bold;
+    color: white;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 28px;
+    padding: 13px 40px;
+    font-size: 15px;   
+    margin-left: 300px;
+    height: 50px;
+    margin-top: -150px;
+    margin-right: 80px;
+    float: right;
+}
+.buttun5:hover{
+    background-color: rgb(74, 102, 126);
+}
+.main-buttun:hover{
+    background-color: rgb(74, 102, 126);
+}
+.footer-boxes{
+    padding-bottom: 200px;
+}
